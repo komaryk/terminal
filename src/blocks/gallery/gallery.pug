@@ -1,8 +1,7 @@
-mixin gallery
-	- var n = 0
+mixin b-gallery
 
-	h3.h2 Our Recent Work
-	ul.row
-		while n < 12
-			+thumbnail
-			- n++
+	+b('section').gallery
+		+e('h2').title Виберіть категорію
+		+e('ul').container 
+			each item in gallery
+				+b-thumbnail(item.img, item.title)
