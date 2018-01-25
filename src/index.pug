@@ -1,0 +1,10 @@
+extends layouts/main
+
+append params
+	- pageTitle = "Сторінка 1"
+
+block content
+	+header
+	main(role='main')
+		.container.pt-4
+			+gallery

@@ -1,0 +1,11 @@
+img {
+  max-width: 100%;
+}
+img:hover {
+  border-color: transparent !important;
+  -webkit-box-shadow: 0 0 6px 1px rgba(33,153,232,0.5);
+          box-shadow: 0 0 6px 1px rgba(33,153,232,0.5);
+}
+a:hover {
+  text-decoration: none;
+}

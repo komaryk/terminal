@@ -1,0 +1,8 @@
+mixin gallery
+	- var n = 0
+
+	h3.h2 Our Recent Work
+	ul.row
+		while n < 12
+			+thumbnail
+			- n++
